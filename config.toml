@@ -1,0 +1,478 @@
+baseURL = "https://frohlichcortezh.github.io"
+languageCode = "en-us"
+theme = "aafu"
+DefaultContentLanguage = "fr"
+
+    [params]
+        title = "Hector Frohlich Cortez CV"
+        author = "Hector Frohlich Cortez"
+        description = "Hector Frohlich Cortez CV"
+        copyright = "MIT"
+
+    [params.aboutme]
+        icon = "fas fa-user"
+
+    # Profile section
+    [params.profile]
+        name = "Hector Frohlich Cortez"
+		tagline = "Développeur Full Stack"
+		location = "Clermont-Ferrand, France"
+        photo = "profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+        [[params.social.list]]
+            class = "fas"
+            icon = "fa-at"
+            url = "mailto:frohlichcortezh@protonmail.com"
+            title = "email"
+
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-linkedin-in"
+            url = "https://www.linkedin.com/in/frohlichcortezh/"
+            title = "LinkedIn"		
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-stack-overflow"
+            url = "https://stackoverflow.com/users/8323634/frohlichcortezh"
+            title = "StackOverflow"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-github"
+            url = "https://github.com/frohlichcortezh"
+            title = "GitHub"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-gitlab"
+            url = "https://framagit.org/frohlichcortezh"
+            title = "FramaGit"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-twitter"
+            url = "https://twitter.com/frohlichcortezh/"
+            title = "Twitter"		
+        
+    #Specify what is showin in the Accordion    
+    [[params.showInAccordionRight]]
+        item = "experience"
+        expand = true   # true for the section that is initially expanded        
+    [[params.showInAccordionRight]]
+        item = "education"
+    #[[params.showInAccordion]]
+    #    item = "publication"
+    #[[params.showInAccordion]]
+    #    item = "project"
+    [[params.showInAccordionRight]]
+        item = "skill"
+    [[params.showInAccordionLeft]]
+        item = "language"        
+    [[params.showInAccordionLeft]]
+        item = "personality"
+    [[params.showInAccordionLeft]]
+        item = "hobby"
+    
+    [languages]
+        [languages.fr]
+        weight = 1
+        languageName="Français"    
+        [languages.fr.params.aboutme]
+            description = """Développeur informatique passionné par le développement. Produire du code simple à lire et à maintenir est ma priorité. Je suis à la recherche de nouvelles opportunités professionnelles. J'ai travaillé en télétravail en totale autonomie mais aussi en entreprise où j'ai apprécié l'esprit d'équipe et l'échange de savoir faire avec des collègues talentueux.ses. J'aime délivrer des produits finaux apportant une expérience utilisateur impeccable. Je reste avant tout un auto-ditacte et j'aime apprendre de nouvelles technologies et méthodologies."""
+        # Experience sectionEspañol
+        [languages.fr.params.experience]
+            title = "Expériences"
+            icon = "fas fa-laptop-code"
+            
+            [[languages.fr.params.experience.list]]
+                position = "Développeur Full Stack (C#, ASP.NET, MVC, Delphi 7, MSSQL)"
+                dates = "Juin 2013 à aujourd'hui (6 ans)"
+                company = "Função Informática (Télétravail)"
+                url = "https://www.linkedin.com/company/fun%C3%A7%C3%A3o-inform%C3%A1tica-automa%C3%A7%C3%A3o-e-sistemas-ltda/"
+                responsabilities= [
+                    "Conception, développement et tests de nouvelles fonctionnalités",
+                ]
+                achivements = [
+                    "Développement de backend d'intégration avec la nouvelle plateforme de paiement FEBRABAN (NPC)"
+                ]
+            [[languages.fr.params.experience.list]]
+                position = "Développeur Client-Server (Delphi 7, MSSQL, C#, ASP.NET)"
+                dates = "Mars 2008 à Fevrier 2012 (4 ans)"
+                company = "Função Informática (São Paulo, Brésil)"
+                url = "http://www.funcao.com.br/"
+                responsabilities = [
+                    "Développement et tests de nouvelles fonctionnalités",
+                    "Visites clients pour mettre en place de nouvelles fonctionnalités ",
+                    "Soutien à l'équipe Support Technique ainsi que contact direct avec les clients ",
+                    "Rédaction de spécifications techniques",
+                    "Validation de spécifications fonctionnelles",
+                    "Encadrement d'équipes techniques (revue de code, suivi des charges)",
+                    "Refactoring pour faciliter l'utilisation de bibliothèques internes",
+                ]
+                achivements = [
+                    "Management d'une équipe de maintenance applicative (3 personnes)",
+                    "Migration du code Delphi 7 vers C# ASP.NET ",                    
+                    "Création de framework interne pour diminution des erreurs communes",                    
+                ]
+        
+        # Education section
+        [languages.fr.params.education]
+            title = "Formations"
+            icon = "fas fa-graduation-cap"
+
+            [[languages.fr.params.education.list]]
+                degree = "Formation Développement Android"
+                degree_url = "https://www.caelum.com.br/"                
+                college = "Caelum (São Paulo, Brésil)"
+                dates = "2011"
+            [[languages.fr.params.education.list]]
+                degree = "Bachelor en Système d'Information"
+                degree_url = "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao/"            
+                college = "Universidade Presbiteriana Mackenzie (São Paulo, Brésil)"
+                dates = "2010 - 2011"
+            [[languages.fr.params.education.list]]
+                degree = "Cours préparatoires pour certification Microsoft"
+                degree_url = "https://www.kasolution.com.br/Microsoft/---/Curso/M/N/MS%20Visual%20Studio"
+                degree_description = [
+                    "2956 - Foundation of Microsoft .NET 2.0 Development",
+                    "2957 - Advanced Foundations of Microsoft .NET 2.0 Development",
+                    "6463 - Visual Studio 2008 - ASP.NET 3.5",
+                ]
+                college = "KA Solution (São Paulo, Brésil)"
+                dates = "2009"
+            [[languages.fr.params.education.list]]
+                college = "ETEC Professor Basilides de Godoy (São Paulo, Brésil)"
+                dates = "Juin, 2006 - Decembre, 2007"
+                degree = "Technicien en Informatique"
+                degree_url = "https://basilides.com.br/cursos/desenvolvimento-sistemas/"
+                degree_description = [
+                    "Logique de programmation",
+                    "Développement des languages C, Pascal, Delphi 7, Visual Basic, Javascript",
+                    "Projet de fin d'études: Développement d'un logiciel pour une salle de sport",
+                ]
+
+        # Skill section
+        [languages.fr.params.skill]
+            title = "Compétences"
+            icon = "fas fa-terminal"
+            [[languages.fr.params.skill.list]]
+                skills = [
+                    ".Net (2.0-4.7)", 
+                    "C#", 
+                    "ASP.NET", 
+                    "Linq",
+                    "TFS", 
+                    "Web Services", 
+                    "SOAP", 
+                    "REST", 
+                    "MVC", 
+                    "Visual Studio", 
+                    "Delphi 7", 
+                    "SQL (T-SQL, Stored Procedures)", 
+                    "MSSQL (SQL SERVER)",
+                    "SSRS", 
+                    "POO",
+                ]
+                skillrating = 90
+            [[languages.fr.params.skill.list]]
+                skills = [
+                    "MySQL",
+                    "SQLite",
+                    "MariaDB",
+                    "HTML", 
+                    "CSS",
+                    "Javascript",
+                    "Jquery",
+                    "Golang",           
+                ]
+                skillrating = 50
+            [[languages.fr.params.skill.list]]
+                skills = [        
+                    "Scrum", 
+                    "Kanban", 
+                    "Git",     
+                    "Dart",
+                    "Flutter", 
+                    "Android",    
+                ]
+                skillrating = 25
+        
+        # Language section
+        [languages.fr.params.language]
+            title = "Langues"
+            icon = "fas fa-globe-americas"
+            [[languages.fr.params.language.list]]
+                languages = [
+                    "Portugais (langue maternelle)",
+                ]
+                languagesrating = 100
+            [[languages.fr.params.language.list]]
+                languages = [
+                    "Anglais"                 
+                ]
+                languagesrating = 80
+            [[languages.fr.params.language.list]]
+                languages = [        
+                    "Français",    
+                ]
+                languagesrating = 70
+            [[languages.fr.params.language.list]]
+                languages = [        
+                    "Espagnol",
+                ]
+                languagesrating = 25
+
+        # Hobby section
+        [languages.fr.params.hobby]  
+            title = "Centres d'intérêt"
+            icon = "fas fa-campground"
+            hobbies = [
+                "Voyage",
+                "Photographie",
+                "Cuisine",
+                "Randonnée"
+            ]             
+
+        # Personality section
+        [languages.fr.params.personality]  
+            title = "Personnalité"
+            icon = "fas fa-people-carry"           
+            traits = [
+                "Autonome",
+                "Adaptable",
+                "Appliqué",
+                "Calme",
+                "Créatif",
+                "Coopératif",
+                "Efficace",
+                "Minutieux",
+                "Organisé",
+            ]
+
+  [languages.en]
+    weight = 2
+    languagename="English"
+    [languages.en.params.aboutme]
+        description = """
+        Passionate developer since 2008 now looking for new 
+        challenges in my career.
+        I invite you to discover my journey. 
+
+        This passion issued from my early contact with 
+        technology, got amplified when I discovered the 
+        programming world in 2006, after entering in a 
+        prestigious technical school in Brazil. 
+        Over all I'm an autodidact that loves sharing, 
+        discovering and perfectioning new technologies.
+        I'm constatly reading tech articles and following 
+        tech news to stay up to date with what is going on.
+
+        I learned to love seeing a project being born, 
+        as well as following its changes and being able to 
+        provide improvements. I bring a close attention to 
+        details, focusing on code quality, organization 
+        and user experience.
+
+        Having the chance to live in three different 
+        countries helped me be at easy with changes, quickly 
+        adapting to new enviroments and people with 
+        different backgrounds.
+        
+        After this few words, I let you finish going through 
+        my resumé and hope to talk in-depth soon.
+    """
+    
+    # Experience section
+        [languages.en.params.experience]
+            title = "Experiences"
+            icon = "fas fa-laptop-code"
+
+            [[languages.en.params.experience.list]]
+                position = "Full-Stack Developer"
+                dates = "June 2013 - *Present*"
+                company = "Função Informática (Home-Office)"
+                links = ["https://www.linkedin.com/company/fun%C3%A7%C3%A3o-inform%C3%A1tica-automa%C3%A7%C3%A3o-e-sistemas-ltda/", "http://www.funcao.com.br/"]            
+                details="""
+                After having spent one year learning English in 
+                Dublin (Ireland).
+                I was offered a position to work remotely. 
+                This role provided a chance to improve my 
+                self-organization as well as improve 
+                autonomy.
+                    ø Mostly C# both Client and Web. 
+                    ø Continuing to follow full cycle of software development.
+                    ø Constant communication with analysts to help improve 
+                        techincal and product documentation.  
+                """
+            [[languages.en.params.experience.list]]
+                position = "Client-Server Developer"
+                dates = "March 2008 - February 2012"
+                company = "Função Informática (São Paulo, Brazil)"
+                links = ["https://www.linkedin.com/company/fun%C3%A7%C3%A3o-inform%C3%A1tica-automa%C3%A7%C3%A3o-e-sistemas-ltda/", "http://www.funcao.com.br/"]
+                details="""
+                I joined Função Informatica, one of the leading companies on 
+                software development for banking and financial market in 
+                Brazil, as a junior software developer in a team of 6 programmers.
+                **2010-2012**
+                ø Managing a small team comprised of 4 developers, writing 
+                technical documents and working alongside analysts and 
+                users to give best solution.
+                ø Creation of framework and constant refactory of libraries 
+                to speed up team's development as well as help decrease 
+                commom errors.
+                ø Migration of Delphi 7 code to C# and asp.NET (3.5)
+                ø Creation of code documentation (previously bare existed),  
+                encouraging team to better documment and share newly developed 
+                libraries or code improvements to other team-mates.
+                ø Praised by analysts and developers for coding best practices 
+                and helping with standard docummentation.
+                2009-2010
+                ø Managing a small team comprised of 2 developers, focused on agile solutions for error in production.
+                ø Constant communication with the Support Team and users, helping with both techinal and product questions from the client.
+                ø Visits on site to help speed problems solving
+                2008-2009
+                ø Follow the full cycle of software development, from reading techinal documentation, to coding, testing, acompanying QC on tests and eventually acompanying deployment on site.
+                ø Developing both new and existing code (refectoring).
+                ø Mostly Delphi and SQL development
+
+                """            
+        
+        # Education section
+        [languages.en.params.education]
+            title = "Education"
+            icon = "fas fa-graduation-cap"
+
+            [[languages.en.params.education.list]]
+                degree = "Android development training"
+                college = "Caelum (São Paulo, Brazil)"
+                college_link = "https://www.caelum.com.br/"
+                dates = "2011"
+            [[languages.en.params.education.list]]
+                degree = "Bacherolat in Information systems"
+                degree_link = "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao/"            
+                college = "Universidade Presbiteriana Mackenzie (São Paulo, Brazil)"
+                dates = "2010 - 2011"
+            [[languages.en.params.education.list]]
+                college = "KA Solution (São Paulo, Brazil)"            
+                degree = " Preparatory course for certification"
+                degree_link = "https://www.kasolution.com.br/Microsoft/---/Curso/M/N/MS%20Visual%20Studio"
+                degree_description = [
+                    "2956 - Foundation of Microsoft .NET 2.0 Development",
+                    "2957 - Advanced Foundations of Microsoft .NET 2.0 Development",
+                    "6463 - Visual Studio 2008 - ASP.NET 3.5",
+                ]
+                dates = "2009"
+            [[languages.en.params.education.list]]
+                college = "ETEC Professor Basilides de Godoy (São Paulo, Brazil)"
+                dates = "Juin, 2006 - Decembre, 2007"
+                degree = "Technicien in Informatics"
+                degree_link = "https://basilides.com.br/cursos/desenvolvimento-sistemas/"
+                degree_description = [
+                    "Logic de programation",
+                    "Développement des languages C, Pascal, Delphi 7, Visual Basic, Javascript",
+                    "Thesis: Développement de logiciel pour salle de sports",
+                ]                   
+
+    # Skill section
+    [languages.en.params.skill]
+        title = "Skills"
+        icon = "fas fa-code"
+        [[languages.en.params.skill.list]]
+            skills = [
+                ".Net (2.0-4.7)", 
+                "C#", 
+                "ASP.NET", 
+                "Linq",
+                "TFS", 
+                "Web Services", 
+                "SOAP", 
+                "REST", 
+                "MVC", 
+                "Visual Studio", 
+                "Delphi 7", 
+                "SQL (T-SQL, Stored Procedures)", 
+                "MSSQL",
+                "SSRS", 
+            ]
+            skillrating = 90
+        [[languages.en.params.skill.list]]
+            skills = [
+                    "MySQL",
+                    "SQLite",
+                    "MariaDB",
+                    "HTML", 
+                    "CSS",
+                    "Golang",           
+            ]
+            skillrating = 75
+        [[languages.en.params.skill.list]]
+            skills = [        
+                    "Scrum", 
+                    "Kanban", 
+                    "Git",     
+                    "Dart",
+                    "Flutter", 
+                    "Android",    
+            ]
+            skillrating = 25
+
+    # Hobby section
+    [languages.en.params.hobby]
+        title = "Hobbies"
+        icon = "fas fa-hourglass-half"
+            
+        [[languages.en.params.hobby.list]]		
+            hobby = "Cooking"
+        [[languages.en.params.hobby.list]]		
+            hobby = "Hiking"
+        [[languages.en.params.hobby.list]]		
+            hobby = "Photographie"
+
+    # Personality section
+    [languages.en.params.personality]  
+        title = "Personnalité"
+        icon = "fas fa-people-carry"
+            
+        [[languages.en.params.personality.list]]		
+            trait = "Autonome"
+        [[languages.en.params.personality.list]]		
+            trait = "Concentré"
+        [[languages.en.params.personality.list]]		
+            trait = "Calme"
+        [[languages.en.params.personality.list]]		
+            trait = "Créatif"
+        [[languages.en.params.personality.list]]		
+            trait = "Coopératif"  
+        [[languages.en.params.personality.list]]		
+            trait = "Efficace"  
+        [[languages.en.params.personality.list]]		
+            trait = "Minutieux"       
+        [[languages.en.params.personality.list]]		
+            trait = "Organisé"
+        [[languages.en.params.personality.list]]		
+            trait = "Souple" 
+    
+    # Language Section
+    [languages.en.params.language]
+            title = "Languages"
+            icon = "fas fa-globe-americas"
+            [[languages.en.params.language.list]]
+                languages = [
+                    "Portuguese (mother tongue)",
+                ]
+                languagesrating = 100
+            [[languages.en.params.language.list]]
+                languages = [
+                    "English"                 
+                ]
+                languagesrating = 80
+            [[languages.en.params.language.list]]
+                languages = [        
+                    "French",    
+                ]
+                languagesrating = 70
+            [[languages.en.params.language.list]]
+                languages = [        
+                    "Spanish",
+                ]
+                languagesrating = 25
