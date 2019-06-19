@@ -1,0 +1,13 @@
+@media print {
+
+    .accordion .content .collapse {
+        display: block !important;
+        height: fit-content !important;
+    }
+    
+    a[href*='//']:after {
+        content:"";
+        color: primary;
+        align-content: space-around;
+    }
+}
