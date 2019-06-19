@@ -78,7 +78,7 @@ DefaultContentLanguage = "fr"
         weight = 1
         languageName="Français"    
         [languages.fr.params.aboutme]
-            description = """Développeur informatique passionné par le développement. Produire du code simple à lire et à maintenir est ma priorité. Je suis à la recherche de nouvelles opportunités professionnelles. J'ai travaillé en télétravail en totale autonomie mais aussi en entreprise où j'ai apprécié l'esprit d'équipe et l'échange de savoir faire avec des collègues talentueux.ses. J'aime délivrer des produits finaux apportant une expérience utilisateur impeccable. Je reste avant tout un auto-ditacte et j'aime apprendre de nouvelles technologies et méthodologies."""
+            description = """Développeur informatique passionné par le développement, je suis à la recherche de nouvelles opportunités professionnelles. Produire du code simple à lire et à maintenir est ma priorité. J'ai travaillé en télétravail en totale autonomie mais aussi en entreprise où j'ai apprécié l'esprit d'équipe et l'échange de savoir faire avec des collègues talentueux.ses. J'aime délivrer des produits finaux apportant une expérience utilisateur impeccable. Je reste avant tout un auto-ditacte et j'aime apprendre de nouvelles technologies et méthodologies."""
         # Experience sectionEspañol
         [languages.fr.params.experience]
             title = "Expériences"
