@@ -85,7 +85,8 @@ DefaultContentLanguage = "fr"
             icon = "fas fa-laptop-code"
             
             [[languages.fr.params.experience.list]]
-                dates = "[Chamalières, France] Développeur DotNet Senior"
+                position = "Développeur DotNet Senior (VB.NET, DevExpress, #C)"
+                dates = "[Chamalières, France] Septembre 2019 à Février 2020"
                 company = "Lokoa"
                 url = "https://www.linkedin.com/company/lokoa/"
                 responsabilities= [
