@@ -1,4 +1,4 @@
-baseURL = "https://frohlichcortezh.github.io"
+baseURL = "//frohlichcortezh.github.io"
 languageCode = "en-us"
 theme = "aafu"
 DefaultContentLanguage = "fr"
@@ -25,33 +25,33 @@ DefaultContentLanguage = "fr"
         [[params.social.list]]
             class = "fas"
             icon = "fa-at"
-            url = "mailto:frohlichcortezh@protonmail.com"
+            #url = "mailto:frohlichcortezh@protonmail.com"
             title = "email"
 
         [[params.social.list]]
             class = "fab"
             icon = "fa-linkedin-in"
-            url = "https://www.linkedin.com/in/frohlichcortezh/"
+            #url = "https://www.linkedin.com/in/frohlichcortezh/"
             title = "LinkedIn"		
         [[params.social.list]]
             class = "fab"
             icon = "fa-stack-overflow"
-            url = "https://stackoverflow.com/users/8323634/frohlichcortezh"
+            #url = "https://stackoverflow.com/users/8323634/frohlichcortezh"
             title = "StackOverflow"
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
-            url = "https://github.com/frohlichcortezh"
+            #url = "https://github.com/frohlichcortezh"
             title = "GitHub"
         [[params.social.list]]
             class = "fab"
             icon = "fa-gitlab"
-            url = "https://framagit.org/frohlichcortezh"
+            #url = "https://framagit.org/frohlichcortezh"
             title = "FramaGit"
         [[params.social.list]]
             class = "fab"
             icon = "fa-twitter"
-            url = "https://twitter.com/frohlichcortezh/"
+            #url = "https://twitter.com/frohlichcortezh/"
             title = "Twitter"		
         
     #Specify what is showin in the Accordion    
@@ -79,29 +79,31 @@ DefaultContentLanguage = "fr"
         languageName="Français"    
         [languages.fr.params.aboutme]
             description = """Développeur informatique passionné par le développement, je suis à la recherche de nouvelles opportunités professionnelles. Produire du code simple à lire et à maintenir est ma priorité. J'ai travaillé en télétravail en totale autonomie mais aussi en entreprise où j'ai apprécié l'esprit d'équipe et l'échange de savoir faire avec des collègues talentueux.ses. J'aime délivrer des produits finaux apportant une expérience utilisateur impeccable. Je reste avant tout un auto-ditacte et j'aime apprendre de nouvelles technologies et méthodologies."""
-        # Experience sectionEspañol
+        # Experience sectionFrancais
         [languages.fr.params.experience]
             title = "Expériences"
             icon = "fas fa-laptop-code"
             
             [[languages.fr.params.experience.list]]
-                position = "Développeur Full Stack (C#, ASP.NET, MVC, Delphi 7, MSSQL)"
-                dates = "Juin 2013 à aujourd'hui (6 ans)"
-                company = "Função Informática (Télétravail)"
-                url = "https://www.linkedin.com/company/fun%C3%A7%C3%A3o-inform%C3%A1tica-automa%C3%A7%C3%A3o-e-sistemas-ltda/"
+                position = "Développeur DotNet Senior (VB.NET, DevExpress, #C)"
+                dates = "[Chamalières, France] Septembre 2019 à Février 2020"
+                company = "Lokoa"
+                #url = "https://www.linkedin.com/company/lokoa/"
                 responsabilities= [
-                    "Conception, développement et tests de nouvelles fonctionnalités",
+                    "Responsable de l'architecture des nouvelles applications",
+                    "Évolution du code existant ainsi que l'ajout de nouvelles fonctionnalités",
                 ]
                 achivements = [
-                    "Développement de backend d'intégration avec la nouvelle plateforme de paiement FEBRABAN (NPC)"
+                    "Création de l'architecture et développement d'une nouvelle application"
                 ]
             [[languages.fr.params.experience.list]]
-                position = "Développeur Client-Server (Delphi 7, MSSQL, C#, ASP.NET)"
-                dates = "Mars 2008 à Fevrier 2012 (4 ans)"
-                company = "Função Informática (São Paulo, Brésil)"
-                url = "http://www.funcao.com.br/"
+                position = "Développeur Full Stack (C#, ASP.NET, MVC, Delphi 7, MSSQL)"
+                dates = """
+                [Télétravail] Juin 2013 à Julliet 2019 (6 ans) --- [São Paulo, Brésil] Mars 2008 à Fevrier 2012 (4 ans)"""
+                company = "Função Informática"
+                #url = "http://www.funcao.com.br/"
                 responsabilities = [
-                    "Développement et tests de nouvelles fonctionnalités",
+                    "Conception, développement et tests de nouvelles fonctionnalités",
                     "Visites clients pour mettre en place de nouvelles fonctionnalités ",
                     "Soutien à l'équipe Support Technique ainsi que contact direct avec les clients ",
                     "Rédaction de spécifications techniques",
@@ -113,6 +115,7 @@ DefaultContentLanguage = "fr"
                     "Management d'une équipe de maintenance applicative (3 personnes)",
                     "Migration du code Delphi 7 vers C# ASP.NET ",                    
                     "Création de framework interne pour diminution des erreurs communes",                    
+                    "Développement de backend d'intégration avec la nouvelle plateforme de paiement FEBRABAN (NPC)",
                 ]
         
         # Education section
@@ -122,17 +125,17 @@ DefaultContentLanguage = "fr"
 
             [[languages.fr.params.education.list]]
                 degree = "Formation Développement Android"
-                degree_url = "https://www.caelum.com.br/"                
+                #degree_url = "https://www.caelum.com.br/"                
                 college = "Caelum (São Paulo, Brésil)"
                 dates = "2011"
             [[languages.fr.params.education.list]]
                 degree = "Bachelor en Système d'Information"
-                degree_url = "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao/"            
+                #degree_url = "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao/"            
                 college = "Universidade Presbiteriana Mackenzie (São Paulo, Brésil)"
                 dates = "2010 - 2011"
             [[languages.fr.params.education.list]]
                 degree = "Cours préparatoires pour certification Microsoft"
-                degree_url = "https://www.kasolution.com.br/Microsoft/---/Curso/M/N/MS%20Visual%20Studio"
+                #degree_url = "https://www.kasolution.com.br/Microsoft/---/Curso/M/N/MS%20Visual%20Studio"
                 degree_description = [
                     "2956 - Foundation of Microsoft .NET 2.0 Development",
                     "2957 - Advanced Foundations of Microsoft .NET 2.0 Development",
@@ -144,7 +147,7 @@ DefaultContentLanguage = "fr"
                 college = "ETEC Professor Basilides de Godoy (São Paulo, Brésil)"
                 dates = "Juin, 2006 - Decembre, 2007"
                 degree = "Technicien en Informatique"
-                degree_url = "https://basilides.com.br/cursos/desenvolvimento-sistemas/"
+                #degree_url = "https://basilides.com.br/cursos/desenvolvimento-sistemas/"
                 degree_description = [
                     "Logique de programmation",
                     "Développement des languages C, Pascal, Delphi 7, Visual Basic, Javascript",
@@ -157,8 +160,10 @@ DefaultContentLanguage = "fr"
             icon = "fas fa-terminal"
             [[languages.fr.params.skill.list]]
                 skills = [
-                    ".Net (2.0-4.7)", 
+                    ".Net (2.0-4.8)", 
+                    ".Net CORE",
                     "C#", 
+                    "VB.NET",
                     "ASP.NET", 
                     "Linq",
                     "TFS", 
@@ -187,7 +192,8 @@ DefaultContentLanguage = "fr"
                 ]
                 skillrating = 50
             [[languages.fr.params.skill.list]]
-                skills = [        
+                skills = [                    
+                    "DevExpress",        
                     "Scrum", 
                     "Kanban", 
                     "Git",     
