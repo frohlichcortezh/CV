@@ -191,7 +191,8 @@ DefaultContentLanguage = "fr"
                     "Javascript",
                     "Jquery",
                     "Golang",  
-                    "Agile"         
+                    "Agile",
+                    "MVVM",         
                 ]
                 skillrating = 50
             [[languages.fr.params.skill.list]]
