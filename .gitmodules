@@ -1,6 +1,0 @@
-[submodule "themes/aafu"]
-	path = themes/aafu
-	url = git@github.com:frohlichcortezh/aafu.git
-[submodule "public"]
-	path = public
-	url = git@github.com:frohlichcortezh/frohlichcortezh.github.io.git
