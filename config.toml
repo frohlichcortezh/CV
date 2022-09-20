@@ -89,7 +89,7 @@ DefaultContentLanguage = "fr"
                 company = "lojelis"
                 url = "https://www.linkedin.com/company/lojelis/"
                 responsabilities= [
-                    "Consultant en projets forfait et assitance technique",
+                    "Consultant en projets forfait et assistance technique",
                     "Participation à toutes les phases d'un projet : analyse des besoins, chiffrage, conception, développement, documentation, tests, déploiement, formation et support.",                    
                 ]
                 achivements = [
@@ -214,14 +214,14 @@ DefaultContentLanguage = "fr"
                     "Azure DevOps",
                     "CI/CD",
                     "SQLite", 
-                    "Agile",
                     "MVVM",
                     "Jira",                    
                     "Redmine",
                     "git",
                     "gitlab",
                     "WCF",
-                    "Windows Workflow Foundation (WF)"
+                    "Windows Workflow Foundation (WF)",
+                    "Docker"
                 ]
                 skillrating = 50
             [[languages.fr.params.skill.list]]
